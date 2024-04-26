@@ -60,7 +60,12 @@ body{
     display: block;
 }
 
-@media screan and (min-with: 768px) {
+.ativo{
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--verde);
+}
+
+@media screen and (min-with: 768px) {
     .botoes{
         display: flex;
     }
